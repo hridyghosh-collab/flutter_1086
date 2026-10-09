@@ -8,8 +8,8 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("homepage"),
-        backgroundColor: const Color.fromARGB(255, 204, 126, 10),
-        foregroundColor: const Color.fromARGB(108, 104, 177, 236),
+        backgroundColor: const Color.fromARGB(255, 218, 84, 84),
+        foregroundColor: const Color.fromARGB(108, 170, 204, 231),
         //leading: Icon(Icons.home),
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.person)),
@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
 
             ListTile(
               leading: Icon(Icons.settings),
-              hoverColor: const Color.fromARGB(255, 59, 171, 228),
+              hoverColor: const Color.fromARGB(255, 176, 201, 33),
               title: Text("homepage"),
               onTap: () {},
             ),
@@ -43,7 +43,7 @@ class HomePage extends StatelessWidget {
             ListTile(
               leading: Icon(Icons.person),
               trailing: IconButton(onPressed: () {}, icon: Icon(Icons.logout)),
-              hoverColor: const Color.fromARGB(255, 221, 190, 104),
+              hoverColor: const Color.fromARGB(255, 10, 214, 129),
               title: Text("profile"),
             ),
           ],
@@ -51,9 +51,9 @@ class HomePage extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        backgroundColor: const Color.fromARGB(255, 94, 8, 121),
+        backgroundColor: const Color.fromARGB(255, 200, 158, 212),
         foregroundColor: Colors.white,
-        hoverColor: const Color.fromARGB(255, 105, 34, 12),
+        hoverColor: const Color.fromARGB(255, 230, 118, 84),
         tooltip: "Write",
         shape: CircleBorder(),
         child: Icon(Icons.add),
@@ -65,9 +65,9 @@ class HomePage extends StatelessWidget {
             child: TextButton(
               onPressed: () {},
               style: TextButton.styleFrom(
-                side: BorderSide(color: Color(0xFF6C63FF)),
+                side: BorderSide(color: Color.fromARGB(255, 156, 152, 245)),
                 backgroundColor: Color(0xFFEDE9FE),
-                foregroundColor: Color(0xFF5B21B6),
+                foregroundColor: Color.fromARGB(255, 184, 158, 224),
                 shadowColor: Colors.grey,
                 elevation: 5,
                 fixedSize: Size(100, 50),
@@ -79,9 +79,9 @@ class HomePage extends StatelessWidget {
             onPressed: () {},
             style: TextButton.styleFrom(
               side: BorderSide(color: Color(0xFF059669)),
-              backgroundColor: Color(0xFFD1FAE5),
-              foregroundColor: Color(0xFF047857),
-              shadowColor: Colors.grey,
+              backgroundColor: Color.fromARGB(255, 75, 126, 99),
+              foregroundColor: Color.fromARGB(255, 199, 219, 213),
+              shadowColor: const Color.fromARGB(255, 226, 172, 172),
               elevation: 5,
               fixedSize: Size(100, 50),
             ),
@@ -92,13 +92,13 @@ class HomePage extends StatelessWidget {
             onPressed: () {},
             style: TextButton.styleFrom(
               side: BorderSide(color: Color(0xFFEC4899)),
-              backgroundColor: Color(0xFFFCE7F3),
-              foregroundColor: Color(0xFFBE185D),
+              backgroundColor: Color.fromARGB(255, 230, 120, 182),
+              foregroundColor: Color.fromARGB(255, 228, 59, 130),
               shadowColor: Colors.grey,
               elevation: 5,
               fixedSize: Size(100, 50),
             ),
-            child: Text("Pink"),
+            child: Text("yellow"),
           ),
         ],
       ),

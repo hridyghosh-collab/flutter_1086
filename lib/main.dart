@@ -1,23 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:smartphone_project/home_page.dart';
+import 'package:smartphone_project/home_page_2.dart';
 
 void main() {
   runApp(const MyApp());
 }
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text(
-          "Welcome to the class",
-          style: GoogleFonts.lobster(fontSize: 40, color: Colors.purple),
-        ),
-      ),
+    return MaterialApp(
+      theme: ThemeData.dark(),
+      debugShowCheckedModeBanner: false,
+      home: HomePage(),
     );
   }
 }
